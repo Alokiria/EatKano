@@ -465,11 +465,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '就这？B哥还没有舒服';
+        if (cps <= 8) return '太慢了太慢了';
+        if (cps <= 10)  return 'B哥要开始加速了';
+        if (cps <= 15) return '狂暴囸树B哥';
+        return '真正的狂暴囸树组长';
     }
 
     function toStr(obj) {
